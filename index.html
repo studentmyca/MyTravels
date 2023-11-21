@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+
+    <link rel = "stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">My Travels</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Gallery</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="img/menu1.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL LIFE</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- All Events -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/imag1.jpg" alt="">
+                <h4>Maniwaya Island Philippines</h4>
+                <p> People often flock to Maniwaya to see and enjoy the white sand beaches.</p>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/image2.jpg" alt="">
+                <h4>Tres Reyes Islands</h4>
+                <p> hese islets boast of beautiful beachscapes, azure waters, and a chill atmosphere.</p>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="explore">
+       <div class="explore-content">
+        <h1>EXPLORE MORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Exploration gives us the sense that any- thing is possible. Exploration leads to knowledge and understanding, and that means you make the world a better place as you explore.</p>
+        <a href="#" class="ctn">Learn More</a>
+       </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>My Travels This Year</h1>
+                <div class="line"></div>
+                <p>Planning a trip in advance gives everyone time to thoughtfully consider where they'd like to go and what they'd like to experience, as well as what their ideal time frame is for traveling.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/img3.jpg" alt="">
+                    <img src="img/img4.jpg" alt="">
+                    <img src="img/img5.jpg" alt="">
+                    <img src="img/img6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Cawit, Boac, Marinduque, Philippines| Phone: 1236-6379-6271 | Email: magallanesmyca9@gmail.com</p>
+        <p>Copyright @ 2023 My Travels</p>
+    </section>
+
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+</html>
